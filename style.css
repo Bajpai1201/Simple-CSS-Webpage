@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+#nav h4{
+    font-size: 20px;
+}
+
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-weight: 500;
+}
+
+#center{
+    height: 40%;
+    width: 100%;
+    
+    padding: 40px 30px;
+}
+
+#center h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#center-in{
+    height: 200px;
+    
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+#right{
+    width: 20%;
+    
+}
+.elem{
+    border-top: 2px solid black;
+   display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem:hover i{ 
+    opacity: 1;
+}
+.elem:hover{
+    background-color: rgb(236, 233, 233);
+}
+#bottom{
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1622519407650-3df9883f76a5?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://unsplash.com/photos/a-woman-in-a-black-suit-standing-on-a-sidewalk-9xrypURB1qM);
+    background-size: cover;
+    background-position: 0 15%;
+}
+
+@media max-width(600px) {
+    
+}
